@@ -1,0 +1,134 @@
+.container{
+  background-image: url('../../assets/Image.svg');
+  background-color: #6216b5;
+  height: 616px;
+  width: 100%;
+
+  nav {
+    margin-left: 108px;
+    position: absolute;
+    top: 28px;
+
+    a {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 30px;
+    }
+  }
+}
+
+.logo {
+    width: 48px;
+    height: 64px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.headerBtn {
+  position: absolute;
+  margin-left: 80.74%;
+  top: 16px;
+}
+
+.headerBtnBecome {
+  background-color: #00a870;
+  height: 44px;
+  width: 234px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  color: #FFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.headerBtnSignIn {
+  background-color: transparent;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  color: #FFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 32px;
+}
+
+.headerArticle {
+  position: absolute;
+  top: 200px;
+  margin-left: 128px;
+
+  h1 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-left: 32px;
+    width: 550px;
+    text-align: start;
+  }
+
+  p {
+    width: 584px;
+    font-family: 'Inter', sans-serif;
+    height: 48px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 32px;
+    text-align: start;
+    margin-top: 24px;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    margin-left: 32px;
+    margin-top: 40px;
+
+    img {
+      width: 48px;
+      height: 48px;
+    }
+  }
+
+  a {
+    position: absolute;
+    margin-left: 16px;
+    text-align: center;
+    text-decoration: underline;
+    top: 222px;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+}
+
+.sectionNanny {
+  img {
+    margin-left: 896px;
+    position: absolute;
+    width: 316px;
+    height: 290px;
+    top: -50px;
+  }
+}
