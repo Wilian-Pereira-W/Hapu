@@ -5,7 +5,7 @@ import styles from './styles.module.scss';
 function CreateAndManageTheTribe() {
   return (
     <article className={styles.container}>
-      <section>
+      <section className={styles.contents}>
         <h2>Share your home, nanny and costs</h2>
         <p>
           You have a fantastic home, a fantastic nanny and wouldn’t
@@ -20,7 +20,7 @@ function CreateAndManageTheTribe() {
         </p>
         <a href="/">Ready to get started?</a>
       </section>
-      <section>
+      <section className={styles.contentsImg}>
         <img src={ImageSection1} alt="encontar a babá" />
       </section>
     </article>
