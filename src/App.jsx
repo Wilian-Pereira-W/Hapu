@@ -1,11 +1,19 @@
 import React from 'react';
 import './styles/global.scss';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div>
-      <h1>Hapu</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
