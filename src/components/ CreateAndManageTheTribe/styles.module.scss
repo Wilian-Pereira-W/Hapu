@@ -2,9 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 1440px;
   background-color: #faf9f7;
-  
-  section {
+}
+
+.contents {
     width: 584px;
     height: 392px;
     margin-top: 120px;
@@ -52,6 +54,48 @@
       font-size: 16px;
       line-height: 24px;
       color: #5E20a4;
+    }
+}
+
+@media (max-width: 360px){
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .contentsImg {
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 200px;
+
+    img {
+      width: 304px;
+      height: 204px;
+      margin-bottom: 0;
+    }
+  }
+
+  .contents {
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 200px;
+
+    h2 {
+      width: 300px;
+      margin-left: 180px;
+      margin-top: 10px;
+    }
+
+    p{
+      margin-left: 140px;
+      width: 300px
+    }
+
+    a {
+      margin-left: 200px;
     }
   }
 }
