@@ -82,4 +82,12 @@ describe('Testing the Header component', () => {
 
     expect(linkEl).toHaveAttribute('href', '/')
   });
+
+  test('Is rendering the Play button button', () => {
+    render(<Header />)
+
+    const buttonPlayButton = screen.getByAltText('Play button');
+
+    expect(buttonPlayButton).toBeInTheDocument();
+  });
 })
