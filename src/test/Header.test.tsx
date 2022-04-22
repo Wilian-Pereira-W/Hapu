@@ -74,4 +74,12 @@ describe('Testing the Header component', () => {
 
     expect(linkEl).toHaveAttribute('href', '/')
   });
+
+  test('See hapu in action (27 seconds) must be a link that has href value for "/"', () => {
+    render(<Header />)
+
+    const linkEl = screen.getByRole('link', { name: 'See hapu in action (27 seconds)' });
+
+    expect(linkEl).toHaveAttribute('href', '/')
+  });
 })
