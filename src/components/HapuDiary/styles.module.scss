@@ -32,3 +32,20 @@
     text-align: center;
   }
 }
+
+@media (max-width: 360px){
+  .container {
+    div {
+      width: 328px;
+    }
+    h2 {
+      width: 328px;
+      font-size: 22px;
+      text-align: center;
+    }
+    p {
+      width: 328px;
+      text-align: center;
+    }
+  }
+}
