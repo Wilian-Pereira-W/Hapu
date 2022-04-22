@@ -58,4 +58,12 @@ describe('Testing the Header component', () => {
 
     expect(linkEl).toHaveAttribute('href', '/')
   });
+
+  test('Browse Shares must be a link that has href value for "/"', () => {
+    render(<Header />)
+
+    const linkEl = screen.getByRole('link', { name: 'Browse Shares' });
+
+    expect(linkEl).toHaveAttribute('href', '/')
+  });
 })
