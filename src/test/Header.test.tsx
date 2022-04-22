@@ -34,4 +34,12 @@ describe('Testing the Header component', () => {
 
     expect(buttonBecomeNannyShareHost).toBeInTheDocument();
   });
+
+  test('Is rendering the Enter button', () => {
+    render(<Header />)
+
+    const buttonSignIn = screen.getByText('Sign In');
+
+    expect(buttonSignIn).toBeInTheDocument();
+  });
 })
