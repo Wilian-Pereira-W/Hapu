@@ -17,5 +17,13 @@ describe('Testing the Header component', () => {
     const description = screen.getByText(/Hapu is Airbnb for nanny share. Share your home/i);
 
     expect(description).toBeInTheDocument();
-  })
+  });
+
+  test('Is rendering the logo', () => {
+    render(<Header />)
+
+    const logo = screen.getByAltText('logo da Hapu');
+
+    expect(logo).toBeInTheDocument();
+  });
 })
