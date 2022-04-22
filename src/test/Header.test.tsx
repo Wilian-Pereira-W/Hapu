@@ -26,4 +26,12 @@ describe('Testing the Header component', () => {
 
     expect(logo).toBeInTheDocument();
   });
+
+  test('Its rendering the Become a Babysitter Share Host button', () => {
+    render(<Header />)
+
+    const buttonBecomeNannyShareHost = screen.getByText('Become a Nanny Share Host');
+
+    expect(buttonBecomeNannyShareHost).toBeInTheDocument();
+  });
 })
