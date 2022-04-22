@@ -15,7 +15,7 @@ function HapuTransparency() {
           That’s why we’ve defined Hapu around our three tribal principles;
           clearly defined process, transparency over money and equality of participation.
         </p>
-        <a href="/">Read how Hapu’s tribal background defines our app </a>
+        <a href="/"><p>Read how Hapu’s tribal background defines our app</p></a>
         <img src={ImageSection4} alt="Transparência da Hapu" />
       </section>
     </article>
