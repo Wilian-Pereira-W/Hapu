@@ -16,6 +16,7 @@ function ParentForm() {
           <input type="text" id="email" name="email" placeholder="Your email" />
           <button type="button">Send</button>
         </form>
+        <div />
       </section>
     </article>
   );
