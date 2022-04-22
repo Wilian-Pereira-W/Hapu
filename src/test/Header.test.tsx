@@ -50,4 +50,12 @@ describe('Testing the Header component', () => {
 
     expect(ImageManageYourBabysitterShare).toBeInTheDocument();
   });
+
+  test('Create your babysitter share must be a link that has href value for "/"', () => {
+    render(<Header />)
+
+    const linkEl = screen.getByRole('link', { name: 'Create Your Nanny Share' });
+
+    expect(linkEl).toHaveAttribute('href', '/')
+  });
 })
