@@ -42,4 +42,12 @@ describe('Testing the Header component', () => {
 
     expect(buttonSignIn).toBeInTheDocument();
   });
+
+  test('Is rendering the image manage your babysitting share', () => {
+    render(<Header />)
+
+    const ImageManageYourBabysitterShare = screen.getByAltText('gerenciar seu compartilhamento de babá');
+
+    expect(ImageManageYourBabysitterShare).toBeInTheDocument();
+  });
 })
