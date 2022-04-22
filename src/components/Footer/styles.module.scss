@@ -19,7 +19,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  
+
   h2{
     margin-top: 80px;
     margin-bottom: 16px;
@@ -63,13 +63,6 @@
   padding-left: 128px;
   padding-right: 128px;
   margin-bottom: 70px;
-
-  h2 {
-    margin-top: 82px;
-    color: #4a4a4a;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-  }
   nav {
     margin-top: 82px;
 
@@ -87,4 +80,83 @@
       margin-left: 16px;
     }
   }
-}
+  .sectionLogo {
+    margin-top: 80px;
+  }
+} 
+
+@media (max-width: 360px){
+  .container {
+    width: 360px;
+    height: 574px;
+    margin-top: 750px;
+
+    div {
+      border-top: 2px solid #dfdfdf;
+      width: 328px;
+      margin-top: 60px;
+      margin-bottom: 40px;
+      margin-left: 20px;
+    }
+  }
+
+  .sectionContents {
+
+    h2 {
+      margin-top: 20px;
+      margin-bottom: 5px;
+      text-align: center;
+      color: #4a4a4a;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-size: 22px;
+    }
+
+    p{
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .sectionNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    height: 200px;
+    nav {
+      margin-top: 0;
+    }
+    h2 {
+      margin-bottom: 10px;
+      margin-top: 50PX;
+    }
+  }
+
+  .sectionTerms {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 360px;
+      height: 70px;
+      margin-bottom: 20px;
+
+      a{
+       width: 120px;
+       text-align: center;
+      }
+    }
+    .sectionNavSocial {
+      display: flex;
+      margin-right: 80px;
+      a{
+        width: 30px;
+      }
+    }
+    .sectionLogo{
+      margin-bottom: 30px;
+    }
+  }
+  
